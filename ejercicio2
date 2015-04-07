@@ -1,0 +1,34 @@
+#include <iostream>
+using std::cout;
+using std::cin;
+using std::endl;
+
+int main()
+{
+  int num1;
+  int num2;
+  int suma;
+  int multiplicacion;
+  int resta;
+  float cociente;
+  
+  cout << "Ingrese el primer numero:" << endl;
+  cin >> num1;
+
+  cout << "Ingrese el segundo numero:" << endl;
+  cin >> num2;
+
+  suma = num1 + num2;
+  multiplicacion = num1 * num2;
+  resta = num1 - num2;
+  cociente = num1 / num2;
+
+  cout << "Suma:" << suma << endl; 
+  cout << "Multiplicacion:" << multiplicacion << endl; 
+  cout << "Resta:" << resta << endl;  
+  cout << "Cociente:" << cociente << endl; 
+
+  system("PAUSE");
+
+  return 0;
+}
